@@ -129,6 +129,10 @@ body{
     }
     .custom-hire{ font-size: 8px;}
     .custom-resume{ font-size: 8px;}
+
+    .custom-overView{padding:4px !important;}
+    .custom-education{padding-left: 4px !important; padding-right: 4px !important;}
+
   }
 
 }

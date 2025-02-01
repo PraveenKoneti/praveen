@@ -3,12 +3,12 @@ import Footer from "./footer";
 import Navbar from "./navbar";
 
 import { BrowserRouter } from "react-router-dom";
-import useDisableDevTools from "../hooks/useDisableDevTools";
+// import useDisableDevTools from "../hooks/useDisableDevTools";
 
 const Dashboard = () => {
 
     // Using useDisableDevTools custom hook inside the functional component
-    useDisableDevTools(); 
+    // useDisableDevTools(); 
 
     return(
 
