@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.experience-section:hover, 
+.projects-section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  background-color: black !important;
+}
+
+
+
+.custom-education:hover{
+  background-color: black;
+  color:blue;
+  transition: transform 6.8s ease-in-out;
+  transform: scale(1.02); 
+}
+
+.custom-projects:hover{
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* color:blue !important; */
+  transform:scale(1.02) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Subtle shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.custom-projectName{
+  color:white;
+}
+.experience-card:hover{
+  background-color: rgb(245, 245, 245);
+  transform: scale(1.02);
+}
+
+
+.custom-skills:hover{
+  background-color: white !important;
+  color: black !important;
+  transform: scale(1.04);
+}
+
+
+.skills{
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.custom-overView:hover{
+  transform: scale(1.02);
+}
+
+.custom-overView{
+  background: #536976;
+  background: linear-gradient(
+    to right,
+    #536976,#292E49
+  );
+}
+
+
+.education-img:hover{
+  transform: scale(3.0);
+  pointer-events: auto;  /* Disable all mouse events like right-click */
+}
+
+
+.custom-certificates{
+  background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.education{
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contact{
+  background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.footer{
+  background: #141E30;
+  background: linear-gradient(
+    to right,
+    #141E30,#243B55
+  );
+}
+
+
+
+
+
+body{
+  @media (min-width: 100px) and (max-width: 250px) {
+   
+   }
+  /* For screens less than 768px (mobile/tablet) */
+  @media (min-width: 251px) and (max-width: 575px) {
+    .custom-name{ font-size: 22px;}
+    .custom-frontend{ font-size:11px;}
+    .custom-matter{ font-size:8px}
+    .img-custom {
+      width: 140px !important; /* No quotes */
+      height: 140px !important; /* No quotes */
+    }
+  }
+
+}
