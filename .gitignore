@@ -26,3 +26,4 @@ dist-ssr
 
 # Ignore src folder
 src/
+app.jsx
