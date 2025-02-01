@@ -52,7 +52,7 @@ const ContactForm = () => {
       <form onSubmit={handleSubmit}>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="p-5 col-12 col-md-10 col-xl-6 contact">
+            <div className="p-5 col-12 col-md-10 col-xl-6 contact rounded">
               {/* Name Input */}
               <div className="form-floating mb-4">
                 <input

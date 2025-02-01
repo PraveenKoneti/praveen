@@ -16,17 +16,16 @@ const Education = () => {
     };
 
     return (
-        <div className="bg-black p-4 text-white m-auto">
+        <div className="bg-black p-4 m-auto">
             <h2 className="text-center text-white mb-4">Education</h2>
             <div
-                className="container-fluid col-11 m-auto p-4 rounded shadow education"
+                className="container-fluid col-11 m-auto p-4 rounded shadow education text-white"
                 style={{
-                    color: "#CCCCCC",
                     boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)", // Softer shadow for depth
                 }}
             >
                 {education.map((edu, index) => (
-                    <div key={index} className="row p-4 align-items-center rounded custom-education">
+                    <div key={index} className="row p-4 align-items-center rounded custom-education ">
                         {/* Degree and Institution */}
                         <div className="col-md-4">
                             <h5 className="text-white">{edu.degree}</h5>
@@ -55,7 +54,7 @@ const Education = () => {
                             <p className="">
                                 <strong className="text-white">Details:</strong> {edu.details[0]}
                             </p>
-                            <button onClick={() => showEducationModal(edu)} className="btn btn-sm btn-secondary">
+                            <button onClick={() => showEducationModal(edu)} className="btn btn-sm btn-outline-light">
                                 More Info
                             </button>
                         </div>

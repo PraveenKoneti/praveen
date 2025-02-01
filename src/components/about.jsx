@@ -27,13 +27,13 @@ const About = () => {
                     <div className="mt-6 p-2">
                         <a
                             href="mailto:kr19pravin@gmail.com"
-                            className="btn btn-primary btn-sm"
+                            className="btn btn-primary btn-sm m-2 custom-hire"
                         >
                             Hire Me
                         </a>
                         <a
                             href= {resume} // Change this to the actual path of your resume file
-                            className="btn btn-success btn-sm ms-3"
+                            className="btn btn-success btn-sm ms-3 m-2 custom-resume"
                             download="Praveen_Koneti_Resume.pdf" // File name for download
                         >
                             Download Resume

@@ -9,7 +9,6 @@ const Certifications = () => {
             <div
                 className="row col-11 m-auto pt-3 pb-3 justify-content-center custom-certificates"
                 style={{
-                    // background: "linear-gradient(to right, #6a11cb, #2575fc)",
                     borderRadius: "15px",
                     boxShadow: "0px 8px 20px rgba(0, 0, 0, 0.3)",
                     color: "white",
