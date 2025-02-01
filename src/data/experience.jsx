@@ -10,7 +10,7 @@ const experiences = [
       logo: lg,
     },
     {
-      company: "Cybotrix Technology",
+      company: "Cybotrix Technologies",
       period: "Oct 2023 - May 2024",
       role: "Frontend Developer (Intern)",
       description: "Contributed to a Multi-Vendor E-Commerce Website Application using React, HTML, CSS, and Bootstrap.",

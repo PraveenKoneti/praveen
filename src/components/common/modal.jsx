@@ -76,7 +76,7 @@ const ProjectModal = ({ project, showModal, closeModal }) => {
           <div className="modal-footer border-secondary">
             <button
               type="button"
-              className="btn btn-outline-black"
+              className="btn btn-outline-light"
               onClick={closeModal}
             >
               Close

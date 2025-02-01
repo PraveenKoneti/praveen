@@ -140,6 +140,58 @@ const projects = [
         ],
         link: "#", // Replace with actual URL
       },
+      {
+        name: "Multi-Vendor E-Commerce Website",
+        type: "Company Project",
+        company: "Cybotrix Technologies",
+        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "React"],
+        description: [
+          "Designed and developed a responsive e-commerce platform for multiple vendors.",
+          "Implemented user authentication and dynamic functionalities for seamless user experience.",
+          "Collaborated on UI design to enhance user engagement.",
+          "Contributed to adding real-time features like product listing and user management.",
+          "Focused on clean and modular code for scalability.",
+        ],
+        link: "#", // Replace with the actual URL
+      },
+      {
+        name: "E-Commerce Website",
+        type: "Live Project",
+        company: "Infocampus",
+        technologies: ["HTML", "CSS", "Bootstrap 5", "JavaScript", "React", "JSON"],
+        description: [
+          "Built a fully functional e-commerce website as part of a live project.",
+          "Used React for frontend development and JSON for dynamic data handling.",
+          "Implemented responsive layouts using Bootstrap 5 for better user experience.",
+          "Developed dynamic components and real-time features using JavaScript.",
+          "Collaborated with team members to create a visually appealing and functional website.",
+          "Tested and debugged the application to ensure smooth performance.",
+        ],
+        link: "#", // Replace with the actual URL
+      },
+      {
+        name: "Campus Interviews Website",
+        type: "Live Project",
+        company: "Infocampus",
+        technologies: [
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "JavaScript",
+          "React",
+          "MERN Stack"
+        ],
+        description: [
+          "Developed a campus interviews website to help students connect with potential employers.",
+          "Used React for frontend development and integrated with the MERN stack for backend services.",
+          "Designed a responsive and interactive user interface with Bootstrap.",
+          "Implemented various features like job posting, application tracking, and interview scheduling.",
+          "Ensured smooth data flow between the frontend and backend using MongoDB and Express.js.",
+          "Developed RESTful APIs with Node.js and Express.js to manage job postings and student profiles.",
+          "Focused on security features like user authentication and authorization.",
+        ],
+        link: "#", // Replace with the actual URL
+      },
     
   ];
   
