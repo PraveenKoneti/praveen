@@ -156,21 +156,4 @@ body {
     }
   }
 
-  /* For screens between 576px and 768px */
-  @media (min-width: 576px) and (max-width: 768px) {
-    .nav-link {
-      font-size: 11px !important;
-    }
-    .navbar-brand{
-      font-size: 20px !important;
-    }
-  }
-
-  /* For screens between 769px and 1024px */
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .nav-link {
-      font-size: 14px !important;
-    }
-    
-  }
 }
