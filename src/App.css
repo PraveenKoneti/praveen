@@ -114,25 +114,63 @@ background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, F
 
 
 
-body{
+
+
+
+
+
+
+body {
+  /* For screens between 100px and 250px */
   @media (min-width: 100px) and (max-width: 250px) {
-   
-   }
-  /* For screens less than 768px (mobile/tablet) */
-  @media (min-width: 251px) and (max-width: 575px) {
-    .custom-name{ font-size: 22px;}
-    .custom-frontend{ font-size:11px;}
-    .custom-matter{ font-size:8px}
-    .img-custom {
-      width: 140px !important; /* No quotes */
-      height: 140px !important; /* No quotes */
-    }
-    .custom-hire{ font-size: 8px;}
-    .custom-resume{ font-size: 8px;}
-
-    .custom-overView{padding:4px !important;}
-    .custom-education{padding-left: 4px !important; padding-right: 4px !important;}
-
+    /* Add specific styles here if needed */
   }
 
+  /* For screens between 251px and 575px (mobile/tablet) */
+  @media (min-width: 251px) and (max-width: 575px) {
+    .custom-name {
+      font-size: 22px;
+    }
+    .custom-frontend {
+      font-size: 11px;
+    }
+    .custom-matter {
+      font-size: 8px;
+    }
+    .img-custom {
+      width: 140px !important;
+      height: 140px !important;
+    }
+    .custom-hire {
+      font-size: 8px;
+    }
+    .custom-resume {
+      font-size: 8px;
+    }
+    .custom-overView {
+      padding: 4px !important;
+    }
+    .custom-education {
+      padding-left: 4px !important;
+      padding-right: 4px !important;
+    }
+  }
+
+  /* For screens between 576px and 768px */
+  @media (min-width: 576px) and (max-width: 768px) {
+    .nav-link {
+      font-size: 11px !important;
+    }
+    .navbar-brand{
+      font-size: 20px !important;
+    }
+  }
+
+  /* For screens between 769px and 1024px */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .nav-link {
+      font-size: 12px !important;
+    }
+    
+  }
 }
