@@ -169,7 +169,7 @@ body {
   /* For screens between 769px and 1024px */
   @media (min-width: 769px) and (max-width: 1024px) {
     .nav-link {
-      font-size: 12px !important;
+      font-size: 14px !important;
     }
     
   }
