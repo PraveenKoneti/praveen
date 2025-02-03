@@ -50,7 +50,7 @@ const Education = () => {
                         </div>
 
                         {/* Details */}
-                        <div className="col-md-4">
+                        <div className="col-md-4 mb-auto">
                             <p className="">
                                 <h5 className="text-white">Details:</h5> {edu.details[0]}
                             </p>
