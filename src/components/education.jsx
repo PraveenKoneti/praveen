@@ -38,21 +38,21 @@ const Education = () => {
                         </div>
 
                         {/* Year */}
-                        <div className="col-md-2">
+                        <div className="col-md-2 mb-auto">
                             <h5 className="text-white">Year</h5>
                             <p className="">{edu.year}</p>
                         </div>
 
                         {/* Percentage */}
-                        <div className="col-md-2">
-                            <h5 className="text-white">Percentage</h5>
+                        <div className="col-md-2 mb-auto">
+                            <h5 className="text-white align-self-start">Percentage</h5>
                             <p className="">{edu.percentage ? `${edu.percentage}` : "N/A"}</p>
                         </div>
 
                         {/* Details */}
                         <div className="col-md-4">
                             <p className="">
-                                <strong className="text-white">Details:</strong> {edu.details[0]}
+                                <h5 className="text-white">Details:</h5> {edu.details[0]}
                             </p>
                             <button onClick={() => showEducationModal(edu)} className="btn btn-sm btn-outline-light">
                                 More Info
