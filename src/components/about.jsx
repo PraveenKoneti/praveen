@@ -1,6 +1,6 @@
 
 import praveen from '../assets/praveen.jpg'
-import resume from '../assets/PRAVEEN_KONETI_CV.pdf'
+import resume from '../assets/praveen_koneti_cv.pdf'
 
 import DeveloperOverview from './overView';
 
