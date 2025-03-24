@@ -38,7 +38,7 @@ const Projects = () => {
                                 <p className="card-text">{project.description[0]}</p>
                             </div>
                             <div className="card-footer d-flex justify-content-end align-items-bottom mb-3">
-                                <button onClick={() => openModal(project)} className="btn btn-outline-light btn-sm"> <i className="bi bi-info-circle"></i> More info </button>
+                                <button onClick={() => openModal(project)} className="btn btn-outline-light btn-sm moreInfo-btn"> <i className="bi bi-info-circle"></i> More info </button>
                                 {project.link && project.link !== "#" && (
                                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-sm ms-4">
                                         Live Project <i className="bi bi-box-arrow-up-right ms-1"></i>

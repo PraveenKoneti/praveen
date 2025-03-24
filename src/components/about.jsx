@@ -1,6 +1,6 @@
 
 import praveen from '../assets/praveen.jpg'
-import resume from '../assets/Praveen_CV.pdf'
+import resume from '../assets/PRAVEEN KONETI CV.pdf'
 
 import DeveloperOverview from './overView';
 
@@ -34,7 +34,7 @@ const About = () => {
                         <a
                             href= {resume} // Change this to the actual path of your resume file
                             className="btn btn-success btn-sm ms-3 m-2 custom-resume"
-                            download="Praveen_Koneti_Resume.pdf" // File name for download
+                            download="PRAVEEN_KONETI_CV.pdf" // File name for download
                         >
                             Download Resume
                         </a>
