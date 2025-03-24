@@ -1,6 +1,5 @@
 
 import praveen from '../assets/praveen.jpg'
-import resume from '../assets/praveen_koneti_cv.pdf'
 
 import DeveloperOverview from './overView';
 
@@ -13,7 +12,7 @@ import Certifications from './certificates';
 
 const About = () => {
 
-    return(
+    return (
 
         <div className="row pb-4 pt-4 bg-black m-0">
 
@@ -32,12 +31,13 @@ const About = () => {
                             Hire Me
                         </a>
                         <a
-                            href= {resume} // Change this to the actual path of your resume file
+                            href="/praveen_koneti_cv.pdf"  // Use direct public path
                             className="btn btn-success btn-sm ms-3 m-2 custom-resume"
-                            download="PRAVEEN_KONETI_CV.pdf" // File name for download
+                            download="PRAVEEN_KONETI_CV.pdf"
                         >
                             Download Resume
                         </a>
+
                     </div>
                 </div>
 
@@ -58,14 +58,14 @@ const About = () => {
                 </div>
             </div>
 
-            
-            <DeveloperOverview/>
-            <Certifications/>
-            <Experience/>
-            <Projects/>
-            <Skills/>
-            <Education/>
-            <ContactForm/>
+
+            <DeveloperOverview />
+            <Certifications />
+            <Experience />
+            <Projects />
+            <Skills />
+            <Education />
+            <ContactForm />
 
         </div>
     )
